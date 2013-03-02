@@ -12,6 +12,7 @@
     <%= content_tag :div, msg, :id => "flash#{name}" %>
   <% end %>
 
+
   <div class="user_nav">
   <% if current_user %>
     Logged in as <%= current_user.email %>
@@ -19,6 +20,7 @@
   <% else %>
     <%= link_to "Sign up", signup_path %> or 
     <%= link_to "Log in", login_path %>
+    test
   <% end %>
   </div>
 

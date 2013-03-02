@@ -5,6 +5,8 @@ gem 'rails', '3.2.11'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+
+gem 'sqlite3'
 gem 'pg'
 
 
@@ -24,6 +26,9 @@ gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
 gem 'bcrypt-ruby', '~> 3.0.0'
+
+# Use haml bc it's awesome
+# gem 'haml-rails'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
